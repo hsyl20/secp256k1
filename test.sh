@@ -9,4 +9,4 @@ cabal sdist
 cd test_dir
 tar xf ../dist-newstyle/sdist/secp256k1-clib-0.7.1.tar.gz
 cd secp256k1-clib-0.7.1
-cabal build -f "+ecdh +ellswift +extrakeys +musig +recovery +schnorrsig"
+cabal test -f "+ecdh +ellswift +extrakeys +musig +recovery +schnorrsig"
